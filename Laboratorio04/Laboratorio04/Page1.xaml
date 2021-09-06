@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio04.Page1">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label
+                FontSize="25"
+                FontAttributes="Bold"
+                TextColor="#000"
+                Text="My First Form"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand">
+            </Label>
+
+            <Button
+                CornerRadius="10"
+                TextColor="#ffff"
+                BackgroundColor="#009933"
+                Text="Next Page"
+                Clicked="OnNextPageButtonClicked">
+            </Button>
+
+            <Button
+                CornerRadius="10"
+                TextColor="#ffff"
+                BackgroundColor="#c81d25"
+                Text="Close"
+                x:Name="btnClose">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

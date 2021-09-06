@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio04.Page2">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label
+                FontSize="25"
+                FontAttributes="Bold"
+                TextColor="#000"
+                Text="Page2"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand">
+            </Label>
+
+            <Button
+                CornerRadius="10"
+                TextColor="#ffff"
+                BackgroundColor="#009933"
+                Text="Previous Page"
+                Clicked="OnPreviousPageButtonClicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

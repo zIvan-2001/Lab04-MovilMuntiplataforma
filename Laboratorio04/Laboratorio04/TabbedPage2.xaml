@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio04.TabbedPage2">
+    <ContentPage Title="Tab 1">
+        <StackLayout Padding="20">
+            <Label 
+                Text="Xamarin"
+                HorizontalOptions="Center"
+                FontSize="25"
+                TextColor="#000"
+                FontAttributes="Bold"/>
+            <Label
+                Padding="15"
+                TextColor="#000"
+                Text="Xamarin es un software imprescindible para el desarrollo de aplicaciones móviles, puesto que permite a los desarrolladores compartir hasta un 90% del código entre plataformas distintas, utilizando un único lenguaje de programación, C#, y que cada vez está ganando más adeptos tanto por el rendimiento como por la posibilidad del acceso al API nativo. "
+                />
+
+            <Label
+                FontAttributes="Bold"
+                TextColor="#000"
+                Text="¿Qué nos aporta Xamarin?"/>
+
+            <Label 
+                Padding="15"
+                TextColor="#000"
+                Text="El principal objetivo de Xamarin es facilitar el proceso de optimización del código en su máxima expresión. Mientras que para crear aplicaciones iOS necesitamos tener conocimientos en Objetive-C y para crear aplicaciones en Android necesitamos conocer Java, esta herramienta nos permite unificar estas diferencias de código a través de Xamarin Studio, donde solamente vamos a tener que dominar el lenguaje C# para crear nuestras apps, independientemente del sistema operativo."
+                />
+            <Button 
+                Text="close" 
+                x:Name="btnClose"  
+                CornerRadius="10"
+                TextColor="#ffff"
+                BackgroundColor="#c81d25"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab 2">
+        <StackLayout Padding="20">
+
+            <Label
+                FontAttributes="Bold"
+                TextColor="#000"
+                Text="¿Cuáles son las principales características de Xamarin?"/>
+
+            <Label 
+                    Padding="15"
+                    TextColor="#000"
+                    Text="Lenguaje C#. Xamarin utiliza un único lenguaje, C#, para crear aplicaciones de todas las plataformas móviles. Xamarin está compilado de forma nativa, lo que lo convierte en una opción para crear aplicaciones de alto rendimiento con aspecto nativo."
+                    />
+
+            <Label 
+                    Padding="15"
+                    TextColor="#000"
+                    Text="Basado en.NET framework. C# es un lenguaje muy desarrollado en el que es complicado que el código se comporte de forma inesperada. Como C# es uno de los lenguajes del framework.NET, puede ser usado con un gran número de características útiles de .NET como Lambdas, LINQ, y programación Asynchronous (Asynk)."
+                    />
+
+            <Label 
+                    Padding="15"
+                    TextColor="#000"
+                    Text="Compilación. La plataforma cuenta con dos productos principales: Xamarin.iOS y Xamarin.Android. En el caso de iOS, el código fuente se compila directamente en código ARM nativo (compilación Ahead-of-Time), mientras que las aplicaciones Xamarin para Android se compilan primero en Lenguaje Intermedio y posteriormente en AOT."    
+                    />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab 3">
+        <StackLayout Padding="20">
+
+            <Label
+                FontAttributes="Bold"
+                TextColor="#000"
+                Text="Por qué decidirse por Xamarin"/>
+
+            <Label 
+                    Padding="15"
+                    TextColor="#000"
+                    Text="La forma en que Xamarin aprovecha las peculiaridades de las diferentes plataformas es verdaderamente revolucionaria. Gracias al lenguaje en C#, que se compila en código nativo de forma predeterminada, permite que los desarrolladores puedan crear una aplicación multiplataforma sin limitaciones y con fácil acceso a todo el hardware específico."
+                    />
+
+            <Label 
+                    Padding="15"
+                    TextColor="#000"
+                    Text="Además, la posibilidad de adaptar una interfaz de usuario al aspecto original de iOS y Android ayudará a envolver las funcionalidades de la aplicación en un diseño impecable."
+                    />
+
+            <Label 
+                    Padding="15"
+                    TextColor="#000"
+                    Text="En caso de que no estés seguro de qué tecnología elegir, debes saber que en APM contamos con profesionales que examinarán cuidadosamente tu idea, ofreciéndote la opción más adecuada para tu proyecto:"
+                    />
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio04.ModalPage1">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label
+                Margin="10"
+                FontSize="25"
+                FontAttributes="Bold"
+                TextColor="#000"
+                Text="Formulario"
+                HorizontalOptions="CenterAndExpand">
+            </Label>
+            <Label
+                Text="Nombre completo"
+                TextColor="#000"
+                FontSize="15"
+                ></Label>
+            <Entry />
+
+            <Label
+                Text="Direccion"
+                TextColor="#000"
+                FontSize="15"
+                ></Label>
+            <Entry />
+
+            <Label
+                Text="Telefono"
+                TextColor="#000"
+                FontSize="15"
+                ></Label>
+            <Entry />
+            
+            <Label
+                Text="Instituto | Universidad"
+                TextColor="#000"
+                FontSize="15"
+                ></Label>
+            <Entry />
+
+            <Label
+                Text="Correo Electronico"
+                TextColor="#000"
+                FontSize="15"
+                ></Label>
+            <Entry />
+            <Label
+                Text="Documento de Identificacion (DNI)"
+                TextColor="#000"
+                FontSize="15"
+                ></Label>
+            <Entry />
+
+
+            <Button 
+                CornerRadius="10"
+                TextColor="#ffff"
+                BackgroundColor="#c81d25"
+                Text="Previous Page"
+                x:Name="btnClosePopup" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
